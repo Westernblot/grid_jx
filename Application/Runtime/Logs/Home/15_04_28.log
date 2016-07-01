@@ -1,0 +1,216 @@
+[ 2015-04-28T10:37:51+08:00 ] ::1 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 89 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.019001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.032002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.007000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 3 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =3 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.000000s ]
+
+[ 2015-04-28T10:46:59+08:00 ] ::1 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 89 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 8 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =8 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.001001s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 4 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =4 [ RunTime:0.005000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc set ip = CONCAT(ip,',',0.0.0.0) where id = 1 [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.0) where id = 1' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc set ip = CONCAT(ip,',',0.0.0.0) where id = 1
+
+[ 2015-04-28T10:49:11+08:00 ] ::1 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 89 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.000000s ]
+
+[ 2015-04-28T10:49:17+08:00 ] ::1 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 89 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 16 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =16 [ RunTime:0.003001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.000000s ]
+
+[ 2015-04-28T11:12:19+08:00 ] 192.168.1.104 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 92 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.015001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 3 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =3 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 11 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =11 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc set ip = CONCAT(ip,',','192.168.1.104') where id = 1 [ RunTime:0.011000s ]
+
+[ 2015-04-28T11:13:37+08:00 ] 192.168.1.104 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 92 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.021002s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 16 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =16 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc set ip = CONCAT(ip,',','192.168.1.104') where id = 1 [ RunTime:0.000000s ]
+
+[ 2015-04-28T11:14:00+08:00 ] 192.168.1.104 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 92 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.016001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 16 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =16 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =12 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc set ip = CONCAT(ip,',','192.168.1.104') where id = 1 [ RunTime:0.000000s ]
+
+[ 2015-04-28T11:14:54+08:00 ] 192.168.1.104 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 92 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 6 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =6 [ RunTime:0.026001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =5 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 14 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =14 [ RunTime:0.001001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =13 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 3 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =3 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =2 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 11 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =11 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =10 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc set ip = CONCAT(ip,',','192.168.1.104') where id = 1 [ RunTime:0.000000s ]
+
+[ 2015-04-28T11:43:20+08:00 ] ::1 /grid_lyj/index.php/Home/Wsdc/wsdcMain
+ERR: 非法操作:wsdcMain
+
+[ 2015-04-28T14:42:39+08:00 ] ::1 /grid_lyj/index.php/Home/Wsdc/wsdcVeto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 E:\WWW\grid_lyj\Application\Home\Controller\WsdcController.class.php 第 95 行.
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =0 [ RunTime:0.022001s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id = [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE tp_wsdc_option set num=num+1 where id =
+SQL: SELECT pid from tp_wsdc_option where id = 21 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =21 [ RunTime:0.023002s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =20 [ RunTime:0.001000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 22 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =22 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =20 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 23 [ RunTime:0.001000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =23 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =20 [ RunTime:0.000000s ]
+SQL: SELECT pid from tp_wsdc_option where id = 25 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =25 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc_option set num=num+1 where id =24 [ RunTime:0.000000s ]
+SQL: UPDATE tp_wsdc set ip = CONCAT(ip,',','0.0.0.0') where id = 2 [ RunTime:0.000000s ]
+
+[ 2015-04-28T15:48:24+08:00 ] ::1 /grid_lyj/index.php/Home/Myzj/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_myzj_content` [ RunTime:0.016000s ]
+SQL: INSERT INTO `tp_myzj_content` (`myzj_id`,`content`,`indate`,`ip`) VALUES (1,'尺寸','2015-04-28','0.0.0.0') [ RunTime:0.033001s ]
+

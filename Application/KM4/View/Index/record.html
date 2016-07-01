@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/sysGeneral.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/systemUtils.js"></script>
+</head>
+<script type="text/javascript">
+	//分类查看
+	function selectRecord() {
+		$('#form_record').submit();
+	}
+</script>
+<body>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <empty name="Think.session.snUser">
+                    <li>
+                        <a href="__URL__/login_result">模拟考试</a>
+                    </li>
+                    <li class="current">
+                        <a href="__URL__/record?apply_detail_type={$apply_detail_type}">考试记录</a>
+                    </li>
+                    <li>
+                        <a href="__URL__/quit">注销</a>
+                    </li>
+                    <else/>
+                    <li>
+                        <a href="__APP__/Manage/Index/index">返回</a>
+                    </li>
+                </empty>
+            </ul>
+            <div class="brand">
+                {:C('HOME_TITLE')}
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="btn-toolbar">
+                <div style=" margin-top:1em;"></div>
+            </div>
+            <form action="__APP__/Home/Index/record" method="get" id="form_record">
+                <input type="hidden" name="idcard" value="{$idcard}" />
+                <!-- 报考细分类别：
+                <select name="apply_detail_type" id="apply_detail_type" onchange="selectRecord()">
+                    <foreach name="studentList" item="vo" >
+                        <option value="{$vo.apply_detail_type}"  <eq name="apply_detail_type" value="$vo.apply_detail_type">selected</eq>   >{$vo.apply_detail_type}</option>
+                    </foreach>
+                </select> -->
+            </form>
+            <div class="well">
+                <notempty  name="Think.session.snUser"> 
+                    姓名：{$student.student_name}&nbsp;&nbsp;性别：{$student.sex} &nbsp;&nbsp;身份证号：{$student.idcard}
+                 </notempty > 
+            <empty name="Think.session.snUser">
+              姓名：{$Think.session.snStudent.student_name}&nbsp;&nbsp;
+            性别：{$Think.session.snStudent.sex} &nbsp;&nbsp;
+            身份证号：{$Think.session.snStudent.idcard}     	
+            </empty>
+                <table class="table table-center">
+                    <caption></caption>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>报考细分类别</th>
+                            <th>考试时间</th>
+                            <th>考试时长</th>
+                            <th>分数</th>
+                            <empty name="Think.session.snUser">
+                                <th class="span2">操作</th>
+                            </empty>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <empty name="recordList">
+                            <tr>
+                                <td colspan="10" align="center"><font color="red">暂无数据</font></td>
+                            </tr>
+                        </empty>
+                        <foreach name="recordList" item="vo" >
+                            <tr id="{$vo.id }">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.apply_detail_type}</td>
+                                <td>{$vo.exam_date}</td>
+                                <td>{$vo.cost_time}</td>
+                                <td>{$vo.score}</td>
+                                <empty name="Think.session.snUser">
+                                    <td><a href="__URL__/record_exam?id={$vo.id}">查看试卷</a></td>
+                                </empty>
+                            </tr>
+                        </foreach>
+                        <!-- <tr>
+                        <td>1</td>
+                        <td>2015-05-28</td>
+                        <td>32</td>
+                        <td>99</td>
+                        <td>
+                        <a href="user.html">查看试卷</a>　
+                        <a href="#">查看错题</a>
+                        </td>
+                        </tr> -->
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                {$page}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

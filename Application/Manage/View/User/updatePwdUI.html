@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/sysGeneral.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/systemUtils.js"></script>
+</head>
+<script type="text/javascript">
+$(function(){
+	
+});
+
+
+
+//提交表单
+function submitForm(){
+	
+	var password=$('#password').val();
+	var password1=$('#password1').val();
+	if(password!=password1 || password=='' || password1==''){
+		alert("请确认密码不为空，且两次输入密码一致！");
+		return;
+	}
+	
+	$('#form1').submit();
+}
+
+
+</script>
+<body>
+     <!-- 顶部固定条 -->
+   <include file="Public/top" />
+    
+  	<div class="content">
+        <div class="container-fluid">
+                     
+        <!-- <div class="btn-toolbar">
+            <a class="btn btn-default" href="__APP__/Manage/Index/index">回到列表页</a>    	
+        </div> -->
+        
+<div class="well">
+        <form action="__APP__/Manage/User/updatePwd"  id="form1" method="post">
+        <div class="block-body">
+        	<input type="hidden" name="id" value="{$Think.session.snUser.id}" />
+        <fieldset>
+        <legend> 个人密码修改</legend>        
+           	<table class="table-add">
+            	<tr>
+                	<td align="right">新密码：<font color="red">*</font></td>
+                	<td><input type="text" id="password" name="password" /></td>
+                 </tr>
+                 <tr>
+                   <td align="right">重复密码：<font color="red">*</font></td>
+                	<td><input type="text" id="password1" name="password1" /></td>
+                </tr>
+                
+            </table>
+        </fieldset>
+        </div>
+        
+        </form>
+        
+        <p style="text-align:center;">
+            <!-- <button class="btn btn-primary" onclick="resetForm()"><img src="__PUBLIC__/images/icon/refresh.png"/> 重置</button> 　 -->
+            <button class="btn btn-primary" onclick="submitForm()"><img src="__PUBLIC__/images/icon/folder__simple.png"/> 修改</button>　
+            <!-- <button class="btn btn-primary" onclick="backIndex()"><img src="__PUBLIC__/images/icon/double.png"/> 返回</button> -->
+        </p>
+</div>   
+              
+ 
+    </div>
+    </div>
+
+</body>
+</html>

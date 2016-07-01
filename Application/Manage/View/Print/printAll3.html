@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+</head>
+
+<body>
+
+   
+    	<eq name="student.apply_detail_type" value="经营性道路旅客运输驾驶员">    	
+      <include file="Print/print_A02" />
+      <include file="Print/print_A03" />
+      <include file="Print/print_A04" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="经营性道路货物运输驾驶员">    	
+      <include file="Print/print_B02" />
+      <include file="Print/print_B03" />
+      <include file="Print/print_B04" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="道路危险货物运输驾驶人员">    	
+      <include file="Print/print_C02" />
+      <include file="Print/print_C03" />
+      <include file="Print/print_C04" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="道路危险货物运输押运人员">    	
+      <include file="Print/print_D02" />
+      <include file="Print/print_D03" />
+      <include file="Print/print_D04" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="道路危险货物运输装卸管理人员">    	
+      <include file="Print/print_E02" />
+      <include file="Print/print_E03" />
+      <include file="Print/print_E04" />
+    	</eq>
+    	
+
+   
+</body>
+</html>

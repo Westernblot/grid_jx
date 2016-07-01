@@ -1,0 +1,6 @@
+[ 2015-05-28T08:31:55+08:00 ] ::1 /jx/index.php/home/exam
+ERR: 无法加载控制器:Exam
+
+[ 2015-05-28T16:29:11+08:00 ] ::1 /jx/index.php/home/timer/zl2
+ERR: 非法操作:zl2
+

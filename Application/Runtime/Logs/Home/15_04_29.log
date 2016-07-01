@@ -1,0 +1,106 @@
+[ 2015-04-29T08:26:27+08:00 ] ::1 /grid_lyj/index.php/home/Ysqgk/css/Lpublic.css
+ERR: 非法操作:css
+
+[ 2015-04-29T08:53:33+08:00 ] ::1 /grid_lyj/index.php/home/Ysqgk/zwgk_ysqgk_show.html?ysq_code=&query_code=
+ERR: 非法操作:zwgk_ysqgk_show
+
+[ 2015-04-29T09:24:15+08:00 ] ::1 /grid_lyj/index.php/Home/Ysqgk/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ysqgk` [ RunTime:0.016001s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_ysqgk` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.028002s ]
+SQL: INSERT INTO `tp_ysqgk` (`name`,`workunit`,`cardtype`,`cardnum`,`orgcode`,`legalperson`,`linkperson`,`tel`,`fax`,`phone`,`email`,`address`,`zipcode`,`content`,`indexnum`,`description`,`cut`,`otherway`,`keynum`,`selcode`,`indate`,`inip`) VALUES ('xx','','身份�\�','','','','','1212','','','','111','','','','','1','�\�','20150429001',4303,'2015-04-29','0.0.0.0') [ RunTime:0.011001s ]
+
+[ 2015-04-29T09:27:38+08:00 ] ::1 /grid_lyj/index.php/Home/Ysqgk/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ysqgk` [ RunTime:0.012001s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_ysqgk` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tp_ysqgk` (`name`,`workunit`,`cardtype`,`cardnum`,`orgcode`,`legalperson`,`linkperson`,`tel`,`fax`,`phone`,`email`,`address`,`zipcode`,`content`,`indexnum`,`description`,`cut`,`offerway`,`getway`,`otherway`,`keynum`,`selcode`,`indate`,`inip`) VALUES ('cccc','','身份�\�','','','','','1111','','','','address','','','','','�\�','纸质,光盘','电子邮件,传真','�\�',20150429002,5796,'2015-04-29','0.0.0.0') [ RunTime:0.002000s ]
+
+[ 2015-04-29T09:28:26+08:00 ] ::1 /grid_lyj/index.php/Home/Ysqgk/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_ysqgk` [ RunTime:0.012001s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_ysqgk` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: INSERT INTO `tp_ysqgk` (`name`,`workunit`,`cardtype`,`cardnum`,`orgcode`,`legalperson`,`linkperson`,`tel`,`fax`,`phone`,`email`,`address`,`zipcode`,`content`,`indexnum`,`description`,`cut`,`offerway`,`getway`,`otherway`,`keynum`,`selcode`,`indate`,`inip`) VALUES ('','','身份�\�','','ddd','','','1212','','','','daddfdf','','','','','�\�','纸质,光盘','电子邮件,传真','�\�',20150429003,4319,'2015-04-29','0.0.0.0') [ RunTime:0.001000s ]
+
+[ 2015-04-29T09:30:18+08:00 ] ::1 /grid_lyj/index.php/Home/Ysqgk/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ysqgk` [ RunTime:0.009000s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_ysqgk` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_ysqgk` (`name`,`workunit`,`cardtype`,`cardnum`,`orgcode`,`licensecode`,`legalperson`,`linkperson`,`tel`,`fax`,`phone`,`email`,`address`,`zipcode`,`content`,`indexnum`,`description`,`cut`,`offerway`,`getway`,`otherway`,`keynum`,`selcode`,`indate`,`inip`) VALUES ('','','身份�\�','','wew','1111','','','121','','','','111111','','','','','�\�','纸质,电子邮件','电子邮件,邮寄','�\�',20150429004,3034,'2015-04-29','0.0.0.0') [ RunTime:0.002000s ]
+
+[ 2015-04-29T09:34:08+08:00 ] ::1 /grid_lyj/index.php/Home/Ysqgk/select?keynum=11&selcode=11
+ERR: 非法操作:select
+
+[ 2015-04-29T10:04:08+08:00 ] ::1 /grid_lyj/index.php/Home/Ysqgk/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ysqgk` [ RunTime:0.014000s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_ysqgk` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_ysqgk` (`persontype`,`name`,`workunit`,`cardtype`,`cardnum`,`orgcode`,`licensecode`,`legalperson`,`linkperson`,`tel`,`fax`,`phone`,`email`,`address`,`zipcode`,`content`,`indexnum`,`description`,`cut`,`offerway`,`getway`,`otherway`,`keynum`,`selcode`,`indate`,`inip`,`status`) VALUES ('公民','111','','身份�\�','','','','','','12','','11','','11','','11','','11','�\�','纸质,光盘','电子邮件,传真','�\�','20150429001',1390,'2015-04-29','0.0.0.0','正在办理') [ RunTime:0.003000s ]
+
+[ 2015-04-29T14:00:03+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_gzhd` [ RunTime:0.046002s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_gzhd` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.183011s ]
+SQL: INSERT INTO `tp_gzhd` (`type`,`name`,`phone`,`address`,`zipcode`,`email`,`aim`,`subject`,`content`,`keynum`,`selcode`,`status`,`indate`) VALUES ('局长信�\�','王五','11','信箱','','','咨询','测试邮件提醒','sss','20150429001',1073,'正在办理','2015-04-29') [ RunTime:0.000000s ]
+
+[ 2015-04-29T14:04:49+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_gzhd` [ RunTime:0.012001s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_gzhd` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.048003s ]
+SQL: INSERT INTO `tp_gzhd` (`type`,`name`,`phone`,`address`,`zipcode`,`email`,`aim`,`subject`,`content`,`keynum`,`selcode`,`status`,`indate`) VALUES ('局长信�\�','李四','13525253030','爱的','1','','咨询','再次测试邮件�\�','对方答复',20150429002,3257,'正在办理','2015-04-29') [ RunTime:0.001000s ]
+
+[ 2015-04-29T14:05:24+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_gzhd` [ RunTime:0.014001s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_gzhd` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tp_gzhd` (`type`,`name`,`phone`,`address`,`zipcode`,`email`,`aim`,`subject`,`content`,`keynum`,`selcode`,`status`,`indate`) VALUES ('局长信�\�','搜索','12','11','','','咨询','11','111',20150429003,9848,'正在办理','2015-04-29') [ RunTime:0.001000s ]
+
+[ 2015-04-29T14:05:24+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-29T14:05:24+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-29T14:05:24+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-29T14:05:24+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-29T14:05:24+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-29T14:07:14+08:00 ] ::1 /grid_lyj/index.php/Home/Gzhd/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_gzhd` [ RunTime:0.003001s ]
+SQL: SELECT max(keynum) as keynum FROM `tp_gzhd` WHERE ( keynum like '%20150429%' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_gzhd` (`type`,`name`,`phone`,`address`,`zipcode`,`email`,`aim`,`subject`,`content`,`keynum`,`selcode`,`status`,`indate`) VALUES ('局长信�\�','dd','121','111','','','咨询','111','1111111111',20150429004,3054,'正在办理','2015-04-29') [ RunTime:0.001000s ]
+

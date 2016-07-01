@@ -1,0 +1,664 @@
+[ 2015-06-29T15:33:38+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3340 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3340 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:33:52+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2319 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2319 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:33:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3504 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3504 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:33:59+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3178 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3178 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:34:04+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2855 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2855 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:34:08+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2011 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2011 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:34:11+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2359 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2359 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:34:15+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3207 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3207 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:34:36+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3049 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3049 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:34:40+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1851 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1851 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:34:42+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1664 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1664 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:34:44+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3511 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3511 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:34:59+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1916 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1916 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:35:03+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2009 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2009 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:35:46+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1822 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1822 ) ORDER BY order_num asc  [ RunTime:0.015001s ]
+
+[ 2015-06-29T15:35:48+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1915 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1915 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:35:49+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1612 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1612 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:35:58+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1740 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1740 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:35:59+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1754 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1754 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:36:01+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1848 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1848 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:36:48+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1846 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1846 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:36:50+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3244 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3244 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:36:52+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1850 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1850 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:36:55+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1766 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1766 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:37:29+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1617 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1617 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:37:33+08:00 ] ::1 /jx/index.php/Home/Index/record_insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004001s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('1617--|3247--|3050--|1616--|3629--|3036--|2219--|3499--|2147--|3692--|2257--|1922--|2016--|2316--|1851--|1914--|1611--|1847--|2348--|1770--|3038--|3430--|2129--|3536--|1803--|3035--|2216--|2346--|1915--|3048--|3565--|1846--|1823--|1822--|2317--|3501--|3651--|3136--|3265--|3578--|1919--|3507--|1843--|3555--|2357--|1778--|3406--|3596--|3107--|2131--|2865--|2215--|2207--|2837--|2169--|3609--|3177--|3080--|2137--|1755--|3444--|2168--|2210--|3426--|3687--|1912--|3600--|3554--|1737--|3594--|1801--|3190--|2834--|3393--|3375--|2601--|2208--|3568--|3364--|3194--|2269--|3394--|1913--|3693--|3254--|3635--|3631--|1876--|3053--|2599--|2139--|3570--|2019--|3633--|2350--|3443--|3628--|3408--|3258--|2064--|','','','1617--|3247--|3050--|1616--|3629--|3036--|2219--|3499--|2147--|3692--|2257--|1922--|2016--|2316--|1851--|1914--|1611--|1847--|2348--|1770--|3038--|3430--|2129--|3536--|1803--|3035--|2216--|2346--|1915--|3048--|3565--|1846--|1823--|1822--|2317--|3501--|3651--|3136--|3265--|3578--|1919--|3507--|1843--|3555--|2357--|1778--|3406--|3596--|3107--|2131--|2865--|2215--|2207--|2837--|2169--|3609--|3177--|3080--|2137--|1755--|3444--|2168--|2210--|3426--|3687--|1912--|3600--|3554--|1737--|3594--|1801--|3190--|2834--|3393--|3375--|2601--|2208--|3568--|3364--|3194--|2269--|3394--|1913--|3693--|3254--|3635--|3631--|1876--|3053--|2599--|2139--|3570--|2019--|3633--|2350--|3443--|3628--|3408--|3258--|2064--|','0','00:00:01','道路危险货物运输押运人员','1',14,'2015-06-29 03:37:33') [ RunTime:0.026001s ]
+
+[ 2015-06-29T15:37:37+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1878 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1878 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:37:50+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2946 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2946 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:37:50+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1616 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1616 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:37:51+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2219 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2219 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:37:51+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1848 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1848 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:37:51+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2947 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2947 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:37:51+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2012 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2012 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:38:22+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3267 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3267 ) ORDER BY order_num asc  [ RunTime:0.018001s ]
+
+[ 2015-06-29T15:38:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2216 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2216 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:38:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1830 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1830 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:38:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1805 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1805 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:38:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1875 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1875 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:38:24+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1770 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1770 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:38:24+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2130 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2130 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:38:24+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2345 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2345 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:38:24+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3679 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3679 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-29T15:38:24+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3248 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3248 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:39:29+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2541 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2541 ) ORDER BY order_num asc  [ RunTime:0.025002s ]
+
+[ 2015-06-29T15:39:40+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2220 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2220 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:39:46+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2541 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2541 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:39:48+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2220 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2220 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:39:49+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1842 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1842 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:39:54+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3038 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3038 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:39:56+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1842 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1842 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:39:59+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3038 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3038 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:40:00+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2129 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2129 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:01+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3511 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3511 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:01+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1914 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1914 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:40:02+08:00 ] 192.168.1.188 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3267 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3267 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:21+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1917 LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1917 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2164 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2164 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:40:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3251 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3251 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1921 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1921 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:23+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2013 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2013 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:24+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2131 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2131 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:25+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2013 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2013 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:25+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1921 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1921 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:25+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3251 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3251 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:26+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2164 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2164 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:26+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3251 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3251 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:26+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1921 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1921 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:40:27+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2013 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2013 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-29T15:40:29+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2131 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2131 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:31+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1822 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1822 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:33+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2013 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2013 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:36+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2131 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2131 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-29T15:40:39+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2013 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2013 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-29T15:40:41+08:00 ] ::1 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1822 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1822 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+

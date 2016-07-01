@@ -1,0 +1,30 @@
+[ 2015-06-04T11:29:45+08:00 ] ::1 /jx/index.php/MANAGE
+ERR: 无法加载控制器:Index
+
+[ 2015-06-04T11:35:37+08:00 ] ::1 /jx/index.php/Manage/Login/infoadd.html
+ERR: 非法操作:infoadd
+
+[ 2015-06-04T11:40:08+08:00 ] ::1 /jx/index.php/Manage/Index/css/common.css
+ERR: 非法操作:css
+
+[ 2015-06-04T11:47:38+08:00 ] ::1 /jx/index.php/Manage/print.html
+ERR: 无法加载控制器:Print
+
+[ 2015-06-04T14:02:18+08:00 ] ::1 /jx/index.php/Manage/Index/print.html
+ERR: 非法操作:print
+
+[ 2015-06-04T14:04:13+08:00 ] ::1 /jx/index.php/Manage/Index/studentUI
+ERR: 模板不存在:./Application/Manage/View/Index/studentUI.html
+
+[ 2015-06-04T14:06:16+08:00 ] ::1 /jx/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2015-06-04T14:07:58+08:00 ] ::1 /jx/index.php/Manage/Index/infoadd.html
+ERR: 非法操作:infoadd
+
+[ 2015-06-04T16:27:28+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-04T16:27:38+08:00 ] ::1 /jx/index.php/Manage/Index/seeUI?id=1
+ERR: 非法操作:seeUI
+

@@ -1,0 +1,40 @@
+[ 2015-05-26T09:49:00+08:00 ] ::1 /grid_jx/index.php/Admin/Login/login
+ERR: Unknown database 'grid_jx'
+
+[ 2015-05-26T09:50:30+08:00 ] ::1 /grid_jx/index.php/Admin/Login/login
+ERR: Unknown database 'grid_jx'
+
+[ 2015-05-26T09:50:55+08:00 ] ::1 /grid_jx/index.php/Admin/Login/login
+ERR: ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2015-05-26T09:57:00+08:00 ] ::1 /grid_jx/index.php/Admin/Gzhd/gzhdMain?type=%E6%8A%95%E8%AF%89%E5%92%A8%E8%AF%A2
+ERR: 无法加载控制器:Gzhd
+
+[ 2015-05-26T09:57:01+08:00 ] ::1 /grid_jx/index.php/Admin/Ysqgk/ysqgkMain
+ERR: 无法加载控制器:Ysqgk
+
+[ 2015-05-26T09:57:01+08:00 ] ::1 /grid_jx/index.php/Admin/Myzj/myzjMain
+ERR: 无法加载控制器:Myzj
+
+[ 2015-05-26T09:57:02+08:00 ] ::1 /grid_jx/index.php/Admin/Zxft/zxftMain
+ERR: 无法加载控制器:Zxft
+
+[ 2015-05-26T09:57:02+08:00 ] ::1 /grid_jx/index.php/Admin/Gzhd/gzhdMain?type=%E5%B1%80%E9%95%BF%E4%BF%A1%E7%AE%B1
+ERR: 无法加载控制器:Gzhd
+
+[ 2015-05-26T09:57:02+08:00 ] ::1 /grid_jx/index.php/Admin/Myzj/myzjMain
+ERR: 无法加载控制器:Myzj
+
+[ 2015-05-26T09:57:03+08:00 ] ::1 /grid_jx/index.php/Admin/Gzhd/gzhdMain?type=%E6%8A%95%E8%AF%89%E5%92%A8%E8%AF%A2
+ERR: 无法加载控制器:Gzhd
+
+[ 2015-05-26T09:57:03+08:00 ] ::1 /grid_jx/index.php/Admin/Gzhd/gzhdMain?type=%E5%85%AC%E4%BC%97%E7%95%99%E8%A8%80
+ERR: 无法加载控制器:Gzhd
+
+[ 2015-05-26T10:39:59+08:00 ] ::1 /grid_jx/index.php/Admin/Excel/
+ERR: 模板不存在:./Application/Admin/View/Excel/index.html
+
+[ 2015-05-26T11:42:35+08:00 ] ::1 /jx/index.php/admin/excel/exportUser
+ERR: 非法操作:exportUser
+

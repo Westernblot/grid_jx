@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/sysGeneral.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/systemUtils.js"></script>
+</head>
+<script type="text/javascript">
+$(function(){
+	
+});
+
+
+
+//提交表单
+function submitForm(){
+	
+	$('#form1').submit();
+}
+
+
+</script>
+<body>
+     <!-- 顶部固定条 -->
+   <include file="Public/top" />
+    
+  	<div class="content">
+        <div class="container-fluid">
+                     
+        <!-- <div class="btn-toolbar">
+            <a class="btn btn-default" href="__APP__/Manage/Index/index">回到列表页</a>    	
+        </div> -->
+        
+<div class="well">
+        <form action="{$user==null?'__APP__/Manage/User/insert':'__APP__/Manage/User/update'}"  id="form1" method="post">
+        <div class="block-body">
+        	<input type="hidden" name="id" value="{$user.id}" />
+        <fieldset>
+        <legend> 用户信息管理</legend>        
+           	<table class="table-add">
+            	<tr>
+                	<td align="right">用户名：<font color="red">*</font></td>
+                	<td><input type="text" id="username" name="username" value="{$user.username}" <notempty name="user">readOnly</notempty> /></td>
+                 </tr>
+                 <tr>
+                   <td align="right">中文名：<font color="red">*</font></td>
+                	<td><input type="text" id="cnname" name="cnname" value="{$user.cnname}" /></td>
+                </tr>
+                <empty name="user">
+            	<tr>
+                	<td align="right">密码：<font color="red">*</font></td>
+                	<td><input type="text" id="password" name="password"  /></td>
+                 </tr>
+                </empty>
+                 <tr>
+                   <td align="right">所属部门：<font color="red">*</font></td>
+                	<td><input type="text" id="dept" name="dept" value="{$user.dept|default='升华驾校'}" /></td>
+                </tr>
+                
+            </table>
+        </fieldset>
+        </div>
+        
+        </form>
+        
+        <p style="text-align:center;">
+            <!-- <button class="btn btn-primary" onclick="resetForm()"><img src="__PUBLIC__/images/icon/refresh.png"/> 重置</button> 　 -->
+            <button class="btn btn-primary" onclick="submitForm()"><img src="__PUBLIC__/images/icon/folder__simple.png"/> 保存</button>　
+            <button class="btn btn-primary" onclick="javascript:history.back();"><img src="__PUBLIC__/images/icon/double.png"/> 返回</button>
+        </p>
+</div>   
+              
+ 
+    </div>
+    </div>
+
+</body>
+</html>

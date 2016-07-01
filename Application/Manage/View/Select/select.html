@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/sysGeneral.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/systemUtils.js"></script>
+</head>
+
+<script type="text/javascript">
+$(function(){
+	
+});
+
+
+
+//条件查询
+function doSearch(){
+	// var sdate=$('#sdate').val();
+	// var edate=$('#edate').val();
+	// if(sdate=='' || edate==''){
+		// alert("*号项必填！");
+		// return;
+	// }
+	
+	$('#formQuery').attr('action','__APP__/Manage/Select/select');
+	$('#formQuery').submit();
+}
+
+
+//条件查询结果导出
+function doSearchExport(){
+	
+	$('#formQuery').attr('action','__APP__/Manage/Select/expData');
+	$('#formQuery').submit();
+}
+
+//数据导出
+function doExport(){
+	
+    var ids = getId('delete'); 
+	if(ids==false){
+		return;
+	}
+	
+	location.href="__APP__/Manage/Index/expStudent?ids="+ids;
+}
+
+
+
+//批量打印
+function batchPrint(){
+	
+	var ids = getId('delete'); 
+	if(ids==false){
+		return;
+	}
+	
+	//location.reload();            //刷新本页面
+	//window.open(url+"?id="+id);   //弹出打印页面
+	
+	//var ids=0;
+	
+	location.href='__APP__/Manage/Select/batch_print?ids='+ids;
+	
+}
+
+</script>
+
+<body>
+    <!-- 顶部固定条 -->
+   <include file="Public/top" />
+        
+    <div class="content">
+      	<div class="container-fluid">
+                    
+        <div class="btn-toolbar">
+             
+           
+      <form action="__APP__/Manage/Select/select" id="formQuery" method="get" class="form-inline">							
+            
+                       添加时间：
+            <input type="text" id="sdate" name="sdate"  class="Wdate" value="{$sdate}"  onclick="WdatePicker()" ><font color="red">*</font>
+                                 至
+            <input type="text" id="edate" name="edate"  class="Wdate" value="{$edate}"  onclick="WdatePicker()" ><font color="red">*</font>
+           
+	      
+                             <!-- <a href="javascript:doPrint('__APP__/Manage/Print/print01')"  class="btn">打印考试申请表</a>  -->
+         <br>                     
+                      姓　　名：<input type="text" name="student_name" value="{$student_name}">
+         &nbsp;                 
+                        报考细分类别：&nbsp;<select name="apply_detail_type">
+                        	<option value="" >-查询所有-</option>
+                        	<foreach name="zidianList" item="vo" >                      		
+                        		  <option value="{$vo.name}" <eq name="apply_detail_type" value="$vo.name">selected</eq> >{$vo.name}</option>
+                            </foreach>
+                        </select>
+       </form> 
+       <br>
+           <button class="btn btn-success" type="button" onClick="doSearch()">查询</button>
+           <button class="btn btn-blue" type="button" onClick="doSearchExport()">查询结果导出</button>
+           <button class="btn btn-blue" type="button" onClick="doExport()">选择报名数据导出</button>
+           <a href="javascript:batchPrint()" class="btn btn-default"> 选择批量打印考试申请表</a> 
+           
+        </div> 
+
+        </div>
+
+<div>
+	<div class="block-heading">查询统计</div>
+    <table class="table">
+          <thead>
+            <tr>
+            <th class="thcheckbox" width="3%" ><input type="checkbox"
+								name="checkbox" id="checkbox" onclick="checkAll(this);" ></th>
+              <th>序号</th>
+              <th>姓名</th>
+              <th>性别</th>
+              <th>身份证号</th>
+              <th>电话</th>
+              <th>报考细分类别</th>
+              <th>添加时间</th>
+              <th>已打印</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          	
+          	<empty name="studentList">
+							<tr>
+								<td colspan="10" align="center"><font color="red">暂无数据</font></td>
+							</tr>
+			</empty>
+						
+			<foreach name="studentList" item="vo" key="k" >  
+							  <tr id="{$vo.id }">
+						         <td class="thcheckbox"><input type="checkbox" name="chk" id="chk" onclick="selTr(this);" ></td>
+						         <td>{$nowPage*100+$k+1}</td>
+						         <td>{$vo.student_name}</td>
+						         <td>{$vo.sex}</td>
+						         <td>{$vo.idcard}</td>
+						         <td>{$vo.tel1}</td>					 					         
+						         <td>{$vo.apply_detail_type}</td>						 					         
+						         <td>{$vo.add_date}</td>						 					         
+						         <td>{$vo.isprint}</td>						 					         
+						         <td>						         						         		
+						         	<a href="__APP__/Manage/Print/print01?id={$vo.id}">打印考试申请表</a>&nbsp;						     					         	
+						         </td>						 					         
+						      </tr>
+			</foreach>
+          	
+            <!-- <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+              <td>1</td>
+              <td>李某某</td>
+              <td>男</td>
+              <td>13872012236</td>
+              <td>小车-B2</td>
+              <td>
+                  <a href="user.html" class="tick-circle"></a>
+                  <a href="#" class="minus-circle"></a>
+              </td>
+            </tr>
+            -->
+          </tbody>
+        </table>
+</div>   
+     <div class="pagination">
+     	{$page}
+    <!-- <ul>
+        <li><a href="#">Prev</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">Next</a></li>
+    </ul> -->
+</div>         
+ 
+    </div>
+   </div> 
+
+
+</body>
+</html>

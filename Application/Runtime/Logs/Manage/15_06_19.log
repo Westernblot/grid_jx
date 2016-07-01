@@ -1,0 +1,36 @@
+[ 2015-06-19T15:09:23+08:00 ] ::1 /jx/index.php/Manage/Home/record?student_id=14
+ERR: 无法加载控制器:Home
+
+[ 2015-06-19T15:59:47+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&student_name=55&apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E6%97%85%E5%AE%A2%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:03:23+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&student_name=55&apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E6%97%85%E5%AE%A2%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:03:25+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E6%97%85%E5%AE%A2%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:03:29+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E6%97%85%E5%AE%A2%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:04:17+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:05:34+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:05:46+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:05:47+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:05:47+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:05:47+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+
+[ 2015-06-19T16:05:48+08:00 ] ::1 /jx/index.php/Manage/Select/select?sdate=2015-06-09&edate=2015-06-19&apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E4%BA%BA%E5%91%98
+ERR: 错误的查询条件:[sdate=>Array]
+

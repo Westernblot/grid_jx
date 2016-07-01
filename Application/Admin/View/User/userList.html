@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>账户管理</title>
+<link href="__PUBLIC__/css/default.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/goaler.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/sysGeneral.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/systemUtils.js"></script>
+</head>
+<script type="text/javascript">
+$(function(){
+	
+});
+
+//删除
+function doDelete(){
+	var ids = getId('delete'); 
+	if(ids==false){
+		return;
+	}
+	//alert(ids);
+	location.href='__URL__/delete?ids='+ids;
+}
+
+//重置密码
+function doResetPWD(){
+	var ids = getId('delete'); 
+	if(ids==false){
+		return;
+	}
+	//alert(ids);
+	if(confirm("重置后密码为1，确定吗？")){
+	   location.href='__URL__/resetPWD?ids='+ids;
+	}
+}
+
+
+//条件查询
+function doSearch(){
+	$('#formQuery').submit();
+}
+
+
+</script>
+<body>
+<div id="div_right">
+	<div class="right_top">
+					<span>账户管理</span>
+				</div>
+				<div class="title">
+					<a href="{:U('User/userUI')}"  class="btn btn-green">新增</a> 
+					<a href="javascript:doResetPWD()" class="btn btn-bule">重置密码</a> 				
+					<a href="javascript:doDelete()" class="btn btn-red">删除</a> 
+					<font color="red">提示：密码重置后全部为1</font>
+					<div style="float: right">
+						<form action="__URL__/userList" id="formQuery" method="get">							
+						用户：<input type="text" name="username" value="{$username}" />
+						<a href="javascript:doSearch()" class="btn btn-bule">查询</a> 
+						</form>
+					</div>
+				</div>
+				<!-- 
+				style="height:400px;overflow:auto;"
+				 -->
+		<div class="develop"  >
+					<table width="100%" border="0" class="mtable">
+						<tr>
+							<th class="thcheckbox" width="3%" ><input type="checkbox"
+								name="checkbox" id="checkbox" onclick="checkAll(this);" ></th>
+							<th width="25%" >用户名</th>
+							<th width="30%" >中文名</th>
+							<th width="45%" >部门</th>
+							<th width="45%" >操作</th>
+						</tr>
+					<tbody id="goaler">
+						<foreach name="userList" item="user" >  
+							  <tr id="{$user.id }">
+						         <td class="thcheckbox"><input type="checkbox" name="chk" id="chk" onclick="selTr(this);" ></td>
+						         <td>{$user.username}</td>
+						         <td>{$user.cnname}</td>
+						         <td>{$user.dept}</td>						 					         
+						         <td>
+						         	<a href="{:U('userUI',array('id'=>$user['id']))}">编辑</a>&nbsp;
+						         	<a href="{:U('powerUI',array('id'=>$user['id']))}">设置权限</a>&nbsp;
+						         	
+						         </td>						 					         
+						      </tr>
+					    </foreach>
+						
+					</tbody>
+					</table>
+		</div>
+				{$page}
+</div>
+</body>
+</html>

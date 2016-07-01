@@ -1,0 +1,9 @@
+[ 2015-06-05T08:50:14+08:00 ] ::1 /jx/index.php/Manage/Index/seeUI?id=1
+ERR: 非法操作:seeUI
+
+[ 2015-06-05T11:39:31+08:00 ] 192.168.1.6 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-05T15:24:29+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+

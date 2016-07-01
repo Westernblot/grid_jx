@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台管理系统</title>
+<link href="__PUBLIC__/css/frame.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/menu.js"></script>
+</head>
+<body style="background:url(__PUBLIC__/images/sys/left_bg.png) repeat-x center top #417EB7;overflow-x:hidden">
+	<div id="div_left">
+				<div class="left_top">
+					<a href="__URL__/right" target="mainFrame">功能菜单栏</a>
+				</div>
+				<div class="menu"  >
+					<ul>
+													
+				<foreach  name="Think.session.snMenuList" item="base" key="k">
+						
+					<if condition="$base.pid eq 0">
+						
+						<if condition="$k eq 0">
+						<li>
+							<div class="acc_trigger active" id="sub_{$base.id}">
+								<img src="__PUBLIC__/images/sys/star_1.png" /> {$base.name}
+							</div>
+							
+							<ul class="child_sub_{$base.id}" style="display: block;">		
+							   
+							<foreach  name="Think.session.snMenuList" item="sub">
+							  <if condition="$sub[pid] eq $base[id]">
+							   <li><a href="__APP__/{$sub.action }" target="mainFrame">{$sub.name}</a></li>
+							   </if>
+							</foreach>
+							
+							</ul>						
+						</li>
+						
+						</if>
+						
+						
+					<if condition="$k neq 0">
+						<li>
+							<div class="acc_trigger" id="sub_{$base.id}">
+								<img src="__PUBLIC__/images/sys/star_1.png" /> {$base.name}
+							</div>
+							
+							<ul class="child_sub_{$base.id}" >		
+							   
+							<foreach  name="Think.session.snMenuList" item="sub">
+							  <if condition="$sub[pid] eq $base[id]">
+							   <li><a href="__APP__/{$sub.action }" target="mainFrame">{$sub.name}</a></li>
+							   </if>
+							</foreach>
+							
+							</ul>						
+						</li> 
+												
+						</if>
+											
+					</if>
+						
+			     </foreach>
+						
+					</ul>
+				</div>
+
+			</div>
+</body>
+</html>

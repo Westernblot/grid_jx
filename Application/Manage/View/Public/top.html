@@ -1,0 +1,34 @@
+ <div class="navbar">
+    	<div class="navbar-inner">
+                <ul class="nav">
+                    <li>
+                            <img src="__PUBLIC__/images/icon/user-white.png"/>{$Think.session.snUser.cnname}
+                    </li>
+                    <li><a href="__APP__/Manage/User/updatePwdUI">修改密码</a></li>
+                    <li><a href="__APP__/Manage/Login/quit">注销</a></li>
+                </ul>
+        	<div class="brand">{:C('MANAGE_TITLE')}</div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="page-title">
+        		<!-- 权限控制 -->
+    <?php if(in_array(("学员信息管理"), is_array($_SESSION['snUser']['power'])?$_SESSION['snUser']['power']:explode(',',$_SESSION['snUser']['power']))): ?>
+		<a href="__APP__/Manage/Index/index">学员信息管理</a>
+	<?php endif; ?>
+	
+    <!-- <?php if(in_array(("基础数据维护"), is_array($_SESSION['snUser']['power'])?$_SESSION['snUser']['power']:explode(',',$_SESSION['snUser']['power']))): ?>
+		<a href="__APP__/Manage/Dictionary/dictionary">基础数据维护</a>
+	<?php endif; ?> -->
+	
+    <?php if(in_array(("用户管理"), is_array($_SESSION['snUser']['power'])?$_SESSION['snUser']['power']:explode(',',$_SESSION['snUser']['power']))): ?>
+		<a href="__APP__/Manage/User/userMain">用户管理</a>
+	<?php endif; ?>
+	
+    <?php if(in_array(("查询统计"), is_array($_SESSION['snUser']['power'])?$_SESSION['snUser']['power']:explode(',',$_SESSION['snUser']['power']))): ?>
+		<a href="__APP__/Manage/Select/select">查询统计</a>
+	<?php endif; ?>
+	      <!-- 权限控制结束 -->
+        </div>
+    </div> 

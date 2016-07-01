@@ -1,0 +1,93 @@
+[ 2015-06-08T08:33:07+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T08:33:10+08:00 ] ::1 /jx/index.php/Manage/Index/user.html
+ERR: 非法操作:user
+
+[ 2015-06-08T08:33:31+08:00 ] ::1 /jx/index.php/Manage/Index/user.html
+ERR: 非法操作:user
+
+[ 2015-06-08T08:44:01+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T08:50:40+08:00 ] ::1 /jx/index.php/Manage/User/userUI?id=1
+ERR: 模板不存在:./Application/Manage/View/User/userUI.html
+
+[ 2015-06-08T08:50:45+08:00 ] ::1 /jx/index.php/Manage/User/studentUI
+ERR: 非法操作:studentUI
+
+[ 2015-06-08T09:04:56+08:00 ] ::1 /jx/index.php/Manage/User/userList.html
+ERR: 非法操作:userList
+
+[ 2015-06-08T09:12:32+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T09:13:35+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T09:22:19+08:00 ] ::1 /jx/index.php/Manage/User/userList.html
+ERR: 非法操作:userList
+
+[ 2015-06-08T09:22:31+08:00 ] ::1 /jx/index.php/Manage/User/userList.html
+ERR: 非法操作:userList
+
+[ 2015-06-08T09:35:56+08:00 ] ::1 /jx/index.php/Manage/User/quit
+ERR: 非法操作:quit
+
+[ 2015-06-08T09:36:16+08:00 ] ::1 /jx/index.php/Manage/User/quit
+ERR: 非法操作:quit
+
+[ 2015-06-08T09:40:48+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T09:44:29+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T09:46:14+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T09:46:40+08:00 ] ::1 /jx/index.php/Manage/User/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T11:11:17+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T11:15:55+08:00 ] 192.168.1.6 /jx/index.php/Manage/Index/SynCardOcx.CAB
+ERR: 非法操作:SynCardOcx.CAB
+
+[ 2015-06-08T11:16:06+08:00 ] 192.168.1.6 /jx/index.php/Manage/Index/SynCardOcx.CAB
+ERR: 非法操作:SynCardOcx.CAB
+
+[ 2015-06-08T11:16:07+08:00 ] 192.168.1.6 /jx/index.php/Manage/Index/SynCardOcx.CAB
+ERR: 非法操作:SynCardOcx.CAB
+
+[ 2015-06-08T11:16:18+08:00 ] 192.168.1.6 /jx/index.php/Manage/Index/SynCardOcx.CAB
+ERR: 非法操作:SynCardOcx.CAB
+
+[ 2015-06-08T11:17:06+08:00 ] 192.168.1.6 /jx/index.php/Manage/Index/SynCardOcx.CAB
+ERR: 非法操作:SynCardOcx.CAB
+
+[ 2015-06-08T11:41:20+08:00 ] 192.168.1.102 /jx/index.php/Manage/User/updatePwdUI
+ERR: 非法操作:updatePwdUI
+
+[ 2015-06-08T11:41:25+08:00 ] 192.168.1.102 /jx/index.php/Manage/User/updatePwdUI
+ERR: 非法操作:updatePwdUI
+
+[ 2015-06-08T11:42:59+08:00 ] 192.168.1.102 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T14:03:38+08:00 ] ::1 /jx/index.php/Manage/Zidian/zidianUI
+ERR: 模板不存在:./Application/Manage/View/Zidian/zidianUI.html
+
+[ 2015-06-08T14:06:56+08:00 ] ::1 /jx/index.php/Manage/Zidian/studentUI
+ERR: 非法操作:studentUI
+
+[ 2015-06-08T15:42:24+08:00 ] ::1 /jx/index.php/Manage/User/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T15:52:55+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+
+[ 2015-06-08T15:53:49+08:00 ] ::1 /jx/index.php/Manage/Index/data.html
+ERR: 非法操作:data
+

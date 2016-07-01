@@ -1,0 +1,1075 @@
+[ 2015-03-18T11:16:02+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2015-03-18T11:16:15+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+
+[ 2015-03-18T11:16:17+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-03-18T11:16:18+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2015-03-18T11:16:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+
+[ 2015-03-18T11:17:04+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-03-18T11:17:17+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-03-18T11:17:17+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-03-18T11:17:20+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-03-18T11:17:21+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-03-18T11:33:37+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+
+[ 2015-03-18T11:33:44+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-03-18T11:33:45+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-03-18T13:19:53+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020278s ]
+
+[ 2015-03-18T13:21:07+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-03-18T13:22:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+
+[ 2015-03-18T13:23:02+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-03-18T13:23:29+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-03-18T13:23:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-03-18T13:23:38+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-03-18T13:23:40+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-03-18T13:23:41+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-03-18T13:23:43+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-03-18T13:23:45+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-03-18T13:23:46+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-03-18T13:23:48+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T13:27:09+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-03-18T13:27:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-03-18T13:27:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-03-18T13:27:39+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+
+[ 2015-03-18T13:27:40+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-03-18T13:27:40+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-03-18T13:27:40+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-03-18T13:28:30+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-03-18T13:28:32+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-03-18T13:28:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-03-18T13:28:58+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-03-18T13:28:58+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+
+[ 2015-03-18T13:29:03+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-03-18T13:29:05+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+
+[ 2015-03-18T13:29:08+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+
+[ 2015-03-18T13:29:10+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-03-18T13:29:10+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-03-18T13:29:12+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-03-18T13:29:14+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2015-03-18T13:30:39+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2015-03-18T13:30:40+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-03-18T13:30:41+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-03-18T13:30:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-03-18T13:30:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+
+[ 2015-03-18T13:30:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-03-18T13:30:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-03-18T13:37:31+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2015-03-18T13:37:48+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-03-18T13:37:50+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-03-18T13:37:51+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-03-18T13:37:52+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-03-18T13:37:53+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-03-18T13:38:57+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-03-18T13:39:01+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-03-18T13:39:02+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-03-18T13:39:13+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-03-18T13:42:22+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-03-18T13:42:23+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-03-18T13:42:26+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-03-18T13:42:29+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-03-18T13:42:30+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-03-18T13:42:34+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-03-18T13:43:44+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-03-18T13:43:47+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2015-03-18T13:43:48+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-03-18T13:43:49+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-03-18T13:45:19+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-03-18T13:45:34+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-03-18T13:46:09+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2015-03-18T13:46:12+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-03-18T13:46:13+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-03-18T13:46:14+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-03-18T13:47:08+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-03-18T13:50:04+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2015-03-18T13:50:19+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-03-18T13:50:21+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-03-18T13:50:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-03-18T13:50:28+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-03-18T13:50:28+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-03-18T13:50:28+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-03-18T13:50:30+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-03-18T13:50:31+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-03-18T13:50:32+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-03-18T13:50:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-03-18T13:50:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-03-18T13:50:34+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-03-18T13:50:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-03-18T13:50:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-03-18T13:50:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-03-18T13:50:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-03-18T13:50:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-03-18T13:50:37+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-03-18T13:53:57+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-03-18T13:54:05+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-03-18T13:54:08+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-03-18T13:54:32+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-03-18T13:54:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-03-18T13:54:37+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-03-18T13:54:38+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-03-18T13:54:39+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-03-18T13:54:40+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-03-18T13:54:41+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-03-18T13:54:41+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-03-18T13:54:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-03-18T13:54:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-03-18T13:54:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-03-18T13:54:44+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-03-18T13:54:44+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-03-18T13:54:45+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2015-03-18T13:54:45+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-03-18T13:54:46+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-03-18T13:54:46+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-03-18T13:54:46+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-03-18T13:54:48+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-03-18T13:55:06+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-03-18T13:55:07+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-03-18T13:55:08+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-03-18T13:55:09+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-03-18T13:55:21+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-03-18T13:55:24+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-03-18T13:55:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-03-18T13:55:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-03-18T13:55:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+
+[ 2015-03-18T13:55:27+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-03-18T13:55:37+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T13:55:38+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-03-18T13:55:39+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-03-18T13:55:41+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-03-18T13:55:41+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-03-18T13:56:10+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-03-18T13:56:14+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-03-18T13:56:15+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-03-18T13:56:15+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-03-18T13:56:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-03-18T13:56:26+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-03-18T13:56:26+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-03-18T13:56:29+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-03-18T13:56:30+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-03-18T13:56:32+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-03-18T13:56:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-03-18T13:56:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T13:56:34+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-03-18T13:56:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T13:56:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-03-18T13:56:36+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-03-18T13:56:37+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-03-18T13:57:59+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-03-18T13:59:16+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-03-18T13:59:20+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-03-18T14:00:15+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-03-18T14:06:23+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+
+[ 2015-03-18T14:06:52+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-03-18T14:07:57+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-03-18T14:08:02+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-03-18T14:08:24+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-03-18T14:08:44+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-03-18T14:08:46+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-03-18T14:09:09+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-03-18T14:10:05+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-03-18T14:10:35+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2015-03-18T14:10:50+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-03-18T14:11:17+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-03-18T14:11:59+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-03-18T14:12:04+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-03-18T14:12:06+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-03-18T14:12:22+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-03-18T14:12:39+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-03-18T14:12:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-03-18T14:12:43+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2015-03-18T14:12:54+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-03-18T14:14:45+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-03-18T14:14:47+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-03-18T14:14:48+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-03-18T14:16:04+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-03-18T14:16:06+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-03-18T14:16:22+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T14:16:33+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T14:16:42+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-03-18T14:16:44+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-03-18T14:16:52+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-03-18T14:17:00+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-03-18T14:17:04+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-03-18T14:17:07+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-03-18T14:17:07+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2015-03-18T14:17:10+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-03-18T14:17:11+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-03-18T14:17:12+08:00 ] 127.0.0.1 /tp02/index.php/Admin/user/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-03-18T14:17:14+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-03-18T14:21:19+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2015-03-18T14:21:22+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-03-18T14:21:24+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-03-18T14:21:24+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-03-18T14:21:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-03-18T14:21:26+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-03-18T14:21:26+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-03-18T14:21:27+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-03-18T14:21:27+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-03-18T14:21:29+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2015-03-18T14:21:30+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-03-18T14:21:31+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-03-18T14:21:31+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-03-18T14:22:02+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-03-18T14:22:09+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-03-18T14:22:13+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-03-18T14:22:17+08:00 ] 127.0.0.1 /tp02/index.php/Admin/User/userList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-03-18T14:26:16+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-03-18T14:26:16+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-03-18T14:26:24+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-03-18T14:26:25+08:00 ] 127.0.0.1 /tp02/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+

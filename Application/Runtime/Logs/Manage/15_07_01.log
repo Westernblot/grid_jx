@@ -1,0 +1,33 @@
+[ 2015-07-01T10:25:04+08:00 ] ::1 /jx/index.php/Manage/Select/import
+ERR: 非法操作:import
+
+[ 2015-07-01T10:29:11+08:00 ] ::1 /jx/index.php/Manage/Dictionary/import
+ERR: Think\Controller:getExcelValue方法不存在！
+
+[ 2015-07-01T10:30:07+08:00 ] ::1 /jx/index.php/Manage/Dictionary/import
+ERR: Think\Controller:getExcelValue方法不存在！
+
+[ 2015-07-01T10:32:30+08:00 ] ::1 /jx/index.php/Manage/Dictionary/import
+ERR: Think\Controller:getExcelValue方法不存在！
+
+[ 2015-07-01T10:33:29+08:00 ] ::1 /jx/index.php/Manage/Dictionary/import
+ERR: Could not open Uploads/www1.xls for reading! File does not exist.
+
+[ 2015-07-01T10:33:42+08:00 ] ::1 /jx/index.php/Manage/Dictionary/import
+ERR: Think\Controller:getExcelValue方法不存在！
+
+[ 2015-07-01T14:49:49+08:00 ] ::1 /jx/index.php/Manage/Excel/import
+ERR: 非法数据对象！:[2=>Array]
+
+[ 2015-07-01T14:51:44+08:00 ] ::1 /jx/index.php/Manage/Excel/import
+ERR: 非法数据对象！:[2=>Array]
+
+[ 2015-07-01T14:51:46+08:00 ] ::1 /jx/index.php/Manage/Excel/import
+ERR: 非法数据对象！:[2=>Array]
+
+[ 2015-07-01T15:18:08+08:00 ] ::1 /jx/index.php/Manage/Excel/importUI
+ERR: 模板不存在:./Application/Manage/View/Excel/importUI.html
+
+[ 2015-07-01T15:20:34+08:00 ] ::1 /jx/index.php/Manage/Excel/jx/Uploads/www.xls
+ERR: 非法操作:jx
+

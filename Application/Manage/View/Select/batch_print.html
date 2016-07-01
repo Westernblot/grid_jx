@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+</head>
+
+<body>
+
+    <foreach name="studentList" item="student" >   
+    	
+    	<eq name="student.apply_detail_type" value="经营性道路旅客运输驾驶员">    	
+      <include file="Print/print_A01" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="经营性道路货物运输驾驶员">    	
+      <include file="Print/print_B01" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="道路危险货物运输驾驶人员">    	
+      <include file="Print/print_C01" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="道路危险货物运输押运人员">    	
+      <include file="Print/print_D01" />
+    	</eq>
+    	
+    	<eq name="student.apply_detail_type" value="道路危险货物运输装卸管理人员">    	
+      <include file="Print/print_E01" />
+    	</eq>
+    	
+
+    </foreach>
+   
+</body>
+</html>

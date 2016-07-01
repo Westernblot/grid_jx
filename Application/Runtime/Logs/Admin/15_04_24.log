@@ -1,0 +1,9 @@
+[ 2015-04-24T08:58:03+08:00 ] ::1 /grid_lyj/index.php/Admin/Gzhd/userList?type=%E5%B1%80%E9%95%BF%E4%BF%A1%E7%AE%B1&keynum=
+ERR: 非法操作:userList
+
+[ 2015-04-24T09:09:29+08:00 ] ::1 /grid_lyj/index.php/Admin/Gzhd/delete?type=%E5%B1%80%E9%95%BF%E4%BF%A1%E7%AE%B1&ids=12,8,7
+ERR: 非法操作:delete
+
+[ 2015-04-24T14:54:23+08:00 ] ::1 /grid_lyj/index.php/Admin/Zxft/manage/upload?dir=image
+ERR: 非法操作:manage
+

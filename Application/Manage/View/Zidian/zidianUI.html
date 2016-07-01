@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{:C('MANAGE_LOGIN')}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/sysGeneral.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/systemUtils.js"></script>
+</head>
+<script type="text/javascript">
+$(function(){
+	
+});
+
+
+//重置表单
+function resetForm(){
+	$('#form1')[0].reset();
+}
+
+//提交表单
+function submitForm(){
+	$('#form1').submit();
+}
+
+//返回
+function backIndex(){
+	location.href="__URL__/index";
+}
+
+//条件查询
+function doSearch(){
+	$('#formQuery').submit();
+}
+
+</script>
+
+<body>
+     <!-- 顶部固定条 -->
+   <include file="Public/top" />
+        
+    <div class="content">
+      	<div class="container-fluid">
+                    
+        <div class="btn-toolbar">
+             
+            <a href="__URL__/studentUI" class="btn btn-success"> 新增</a>     	
+            <a href="javascript:doDelete()" class="btn btn-default"> 删除</a>    
+           
+           
+	      <div style=" margin-top:1em;">
+                
+                    <form action="/jx/index.php/Manage/Index/index" id="formQuery" method="get" class="form-inline">							
+                        <input type="text" name="name" placeholder="请输入需要查询的数据..." value="{$name}" class="input-inline" />
+                        <button class="btn btn-default" type="button" onClick="doSearch()">查询</button>
+                    </form> 
+            </div>
+
+        </div>
+
+<div>
+	<div class="block-heading">基础数据</div>
+    <table class="table">
+          <thead>
+            <tr>
+            <th class="thcheckbox" width="3%" ><input type="checkbox"
+								name="checkbox" id="checkbox" onclick="checkAll(this);" ></th>
+              <th>ID</th>
+              <th>名称</th>
+              <th>类别</th>
+              <th>排序</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          	
+          	<empty name="studentList">
+							<tr>
+								<td colspan="10" align="center"><font color="red">暂无数据</font></td>
+							</tr>
+			</empty>
+						
+			<foreach name="studentList" item="vo" >  
+							  <tr id="{$vo.id }">
+						         <td class="thcheckbox"><input type="checkbox" name="chk" id="chk" onclick="selTr(this);" ></td>
+						         <td>{$vo.id}</td>
+						         <td>{$vo.name}</td>
+						         <td>{$vo.kind}</td>
+						         <td>{$vo.sort}</td>					 					         
+						         <td>
+						         	<a href="__URL__/studentUI?id={$vo.id}">编辑</a>&nbsp;
+						         	<a href="__URL__/seeUI?id={$vo.id}">查看</a>&nbsp;
+						         	
+						         </td>						 					         
+						      </tr>
+			</foreach>
+          	
+            <!-- <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+              <td>1</td>
+              <td>李某某</td>
+              <td>男</td>
+              <td>13872012236</td>
+              <td>小车-B2</td>
+              <td>
+                  <a href="user.html" class="tick-circle"></a>
+                  <a href="#" class="minus-circle"></a>
+              </td>
+            </tr>
+            -->
+          </tbody>
+        </table>
+</div>   
+     <div class="pagination">
+     	{$page}
+    <!-- <ul>
+        <li><a href="#">Prev</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">Next</a></li>
+    </ul> -->
+</div>         
+ 
+    </div>
+   </div> 
+
+
+</body>
+</html>

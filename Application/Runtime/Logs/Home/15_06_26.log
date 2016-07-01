@@ -1,0 +1,18 @@
+[ 2015-06-26T15:48:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2319 LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2319 ) ORDER BY order_num asc  [ RunTime:0.008001s ]
+
+[ 2015-06-26T15:49:04+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 131 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=131 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+

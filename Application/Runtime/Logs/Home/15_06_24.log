@@ -1,0 +1,1774 @@
+[ 2015-06-24T14:57:16+08:00 ] 192.168.1.102 /jx/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.015001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 403 行.
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 405 行.
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 421 行.
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 504 行.
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 507 行.
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 508 行.
+NOTIC: [8] Undefined index: snStudent E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 509 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T14:57:54+08:00 ] 192.168.1.102 /jx/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T14:57:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T14:57:57+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 ) LIMIT 1   [ RunTime:0.005001s ]
+
+[ 2015-06-24T14:57:57+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T14:58:28+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.012000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:03:35+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-24T15:03:35+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:03:37+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2015-06-24T15:03:37+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:04:06+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:04:12+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:04:15+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.017001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-24T15:04:22+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:04:35+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:15:45+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:15:46+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:15:52+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:15:52+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:15:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=2 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:15:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=2 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:16:03+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:16:04+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:16:06+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 ) LIMIT 1   [ RunTime:0.003000s ]
+
+[ 2015-06-24T15:16:06+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:18:06+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-24T15:19:22+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:19:22+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-24T15:19:24+08:00 ] 192.168.1.102 /jx/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2015-06-24T15:19:24+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:19:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-24T15:19:56+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E6%8A%BC%E8%BF%90%E4%BA%BA%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.012000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.010001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:19:57+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3537 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3537 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:20:07+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.013000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.015001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.015001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:20:07+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1467 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1467 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T15:20:29+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.013001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.014001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.013000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:20:29+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1368 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1368 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:21:19+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.012000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.015001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:21:20+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 103 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=103 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:22:59+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: 经营性道路货物运输驾驶员 E:\WWW\jx\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.013001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.015001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: apply_detail_type E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-24T15:22:59+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 133 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=133 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T15:23:07+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: 经营性道路货物运输驾驶员 E:\WWW\jx\Application\Home\Controller\IndexController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.012001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.015001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.013000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: apply_detail_type E:\WWW\jx\Application\Runtime\Cache\Home\94309e740f0417e3063019e96807aa77.php 第 421 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:23:07+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1357 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1357 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:24:00+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.015001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.014001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:24:00+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1463 LIMIT 1   [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1463 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:24:12+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E6%8A%BC%E8%BF%90%E4%BA%BA%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.011000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.010001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-24T15:24:13+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2143 LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2143 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T15:25:22+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E6%8A%BC%E8%BF%90%E4%BA%BA%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.011001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.011001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:25:22+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2854 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2854 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T15:25:29+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E7%BB%8F%E8%90%A5%E6%80%A7%E9%81%93%E8%B7%AF%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E9%A9%BE%E9%A9%B6%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='X1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 20   [ RunTime:0.011001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.014001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '经营性道路货物运输驾驶员' ) ORDER BY Rand() LIMIT 40   [ RunTime:0.014000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T15:25:29+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1359 LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1359 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T15:28:10+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 838 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=838 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:28:11+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 555 LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=555 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-24T15:28:14+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2376 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2376 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-24T15:28:15+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 97 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=97 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:28:20+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 457 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=457 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T15:28:26+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1194 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1194 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T15:28:27+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 998 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=998 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T15:28:37+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('1359-C,D-no|838--|2367--|1183--|1133--|141--|1464--|1479--|451--|1483--|137--|1236--|75--|447--|3004--|1363--|555-C,D-no|2376--|392--|554--|998-A-no|891--|349--|296--|368--|641--|876--|878--|744--|601--|653--|1307--|97-A-yes|457-A-yes|1194--|460--|607--|887--|116--|753--|870--|632--|957--|754--|757--|1168--|608--|613--|506--|364--|782--|976--|994--|294--|1200--|633--|738--|259--|963--|978--|547--|1226--|795--|50--|1100--|627--|1116--|227--|1609--|1300--|801--|540--|326--|689--|43--|562--|224--|1223--|712--|55--|725--|723--|56--|312--|332--|1514--|1069--|226--|1055--|537--|488--|1000--|1299--|1070--|419--|686--|307--|331--|568--|1227--|','97-A-yes|457-A-yes|','1359-C,D-no|555-C,D-no|998-A-no|','838--|2367--|1183--|1133--|141--|1464--|1479--|451--|1483--|137--|1236--|75--|447--|3004--|1363--|2376--|392--|554--|891--|349--|296--|368--|641--|876--|878--|744--|601--|653--|1307--|1194--|460--|607--|887--|116--|753--|870--|632--|957--|754--|757--|1168--|608--|613--|506--|364--|782--|976--|994--|294--|1200--|633--|738--|259--|963--|978--|547--|1226--|795--|50--|1100--|627--|1116--|227--|1609--|1300--|801--|540--|326--|689--|43--|562--|224--|1223--|712--|55--|725--|723--|56--|312--|332--|1514--|1069--|226--|1055--|537--|488--|1000--|1299--|1070--|419--|686--|307--|331--|568--|1227--|','2','00:02:13','','1',14,'2015-06-24 03:28:37') [ RunTime:0.025002s ]
+
+[ 2015-06-24T15:28:39+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:29:52+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/login_result
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_student` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_student` WHERE ( idcard=1 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:29:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/index?apply_detail_type=%E9%81%93%E8%B7%AF%E5%8D%B1%E9%99%A9%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93%E6%8A%BC%E8%BF%90%E4%BA%BA%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A1' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.011000s ]
+SQL: SELECT `id`,`theme` FROM `tp_question` WHERE ( question_type_code='A2' and apply_detail_type = '道路危险货物运输押运人员' ) ORDER BY Rand() LIMIT 50   [ RunTime:0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:29:54+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1922 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1922 ) ORDER BY order_num asc  [ RunTime:0.008000s ]
+
+[ 2015-06-24T15:30:10+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3261 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3261 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:30:12+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('1922-A-yes|3261--|1760--|2257--|1915--|3102--|2017--|3179--|2165--|1764--|3340--|3244--|3538--|3208--|2445--|1793--|3115--|3051--|1844--|1823--|2317--|3500--|1612--|1923--|3038--|3032--|3042--|2016--|1845--|2128--|3050--|1754--|2348--|2347--|2142--|2127--|3565--|1805--|1617--|3430--|1663--|3688--|2443--|3596--|3049--|2015--|2359--|3407--|2129--|3406--|3175--|2951--|1801--|3157--|3104--|2173--|1825--|2950--|3177--|3482--|3494--|3682--|2949--|2985--|3601--|2948--|1755--|3550--|1791--|3404--|3264--|1655--|3159--|3627--|1771--|2063--|3225--|2065--|3631--|3421--|2222--|3426--|2351--|3488--|2269--|3373--|3553--|1872--|3154--|3687--|3569--|3484--|1873--|2253--|2354--|3192--|3593--|3176--|2137--|3156--|','1922-A-yes|','','3261--|1760--|2257--|1915--|3102--|2017--|3179--|2165--|1764--|3340--|3244--|3538--|3208--|2445--|1793--|3115--|3051--|1844--|1823--|2317--|3500--|1612--|1923--|3038--|3032--|3042--|2016--|1845--|2128--|3050--|1754--|2348--|2347--|2142--|2127--|3565--|1805--|1617--|3430--|1663--|3688--|2443--|3596--|3049--|2015--|2359--|3407--|2129--|3406--|3175--|2951--|1801--|3157--|3104--|2173--|1825--|2950--|3177--|3482--|3494--|3682--|2949--|2985--|3601--|2948--|1755--|3550--|1791--|3404--|3264--|1655--|3159--|3627--|1771--|2063--|3225--|2065--|3631--|3421--|2222--|3426--|2351--|3488--|2269--|3373--|3553--|1872--|3154--|3687--|3569--|3484--|1873--|2253--|2354--|3192--|3593--|3176--|2137--|3156--|','1','00:00:13','道路危险货物运输押运人员','1',14,'2015-06-24 03:30:12') [ RunTime:0.021001s ]
+
+[ 2015-06-24T15:30:13+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:30:34+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 23 LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 0 E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 161 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 166 行.
+NOTIC: [8] Undefined offset: 2 E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 168 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 181 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 181 行.
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:30:34+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 0 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid= ) ORDER BY order_num asc  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY order_num asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_option` WHERE ( qid= ) ORDER BY order_num asc 
+NOTIC: [2] Invalid argument supplied for foreach() E:\WWW\jx\Application\Home\Controller\IndexController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: title_type E:\WWW\jx\Application\Home\Controller\IndexController.class.php 第 133 行.
+
+[ 2015-06-24T15:31:09+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 33 LIMIT 1   [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:31:09+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1922 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1922 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:31:45+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:31:49+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 33 LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T15:31:49+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1922 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1922 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T15:34:19+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 33 LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T15:34:20+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1922 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1922 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:34:26+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 32 LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 168 行.
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 168 行.
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 168 行.
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:34:26+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1359 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1359 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:35:52+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 32 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 105 行.
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 105 行.
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 124 行.
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:35:52+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1359 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1359 ) ORDER BY order_num asc  [ RunTime:0.023001s ]
+
+[ 2015-06-24T15:35:59+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:36:38+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-24T15:37:03+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 33 LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T15:37:03+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1922 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1922 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:37:08+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:37:10+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_exam?id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_record` WHERE `id` = 32 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 105 行.
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 105 行.
+NOTIC: [8] Use of undefined constant bRed - assumed 'bRed' E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 124 行.
+NOTIC: [8] Undefined variable: qid E:\WWW\jx\Application\Runtime\Cache\Home\ed561381d8ef8a187677a330dbca8cb5.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-24T15:37:10+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1359 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1359 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T15:37:11+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:37:34+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:37:46+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_record` WHERE ( student_id=14 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_record` WHERE ( student_id=14 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T15:41:19+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3502 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3502 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T15:41:25+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('3502--|2218--|1793--|3507--|1658--|2217--|1762--|1843--|3555--|2128--|1803--|2349--|3265--|3251--|1778--|3222--|1848--|1847--|1705--|1659--|3597--|1661--|3430--|3050--|3595--|3691--|2678--|1846--|2011--|2164--|1663--|1754--|1614--|3537--|1740--|1739--|3136--|1849--|1615--|3651--|2040--|3636--|1921--|2987--|3505--|1830--|2130--|2346--|2988--|2143--|2168--|3495--|2604--|3618--|3424--|2839--|3105--|3045--|3572--|3554--|3487--|1655--|1913--|3193--|3443--|1757--|3026--|2169--|3341--|3154--|2020--|3177--|3262--|3690--|3079--|1796--|2600--|3420--|2213--|3689--|3693--|2079--|2207--|3619--|2221--|2355--|3046--|2064--|1824--|2865--|3542--|2838--|1856--|1794--|2140--|2951--|3608--|1792--|1662--|2605--|','','','3502--|2218--|1793--|3507--|1658--|2217--|1762--|1843--|3555--|2128--|1803--|2349--|3265--|3251--|1778--|3222--|1848--|1847--|1705--|1659--|3597--|1661--|3430--|3050--|3595--|3691--|2678--|1846--|2011--|2164--|1663--|1754--|1614--|3537--|1740--|1739--|3136--|1849--|1615--|3651--|2040--|3636--|1921--|2987--|3505--|1830--|2130--|2346--|2988--|2143--|2168--|3495--|2604--|3618--|3424--|2839--|3105--|3045--|3572--|3554--|3487--|1655--|1913--|3193--|3443--|1757--|3026--|2169--|3341--|3154--|2020--|3177--|3262--|3690--|3079--|1796--|2600--|3420--|2213--|3689--|3693--|2079--|2207--|3619--|2221--|2355--|3046--|2064--|1824--|2865--|3542--|2838--|1856--|1794--|2140--|2951--|3608--|1792--|1662--|2605--|','0','00:00:04','道路危险货物运输押运人员','1',14,'2015-06-24 03:41:25') [ RunTime:0.034002s ]
+
+[ 2015-06-24T15:45:27+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3502 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3502 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T16:05:57+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3343 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3343 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T16:06:00+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('3343--|3048--|3178--|3043--|3537--|3548--|1799--|1805--|2357--|2164--|1778--|3179--|3636--|3134--|2345--|1921--|1661--|1666--|3597--|1613--|3039--|1767--|1851--|2131--|2255--|2220--|3038--|2678--|2142--|3539--|3108--|2129--|3050--|2317--|2443--|3206--|1915--|2855--|3040--|3267--|3037--|2987--|2444--|1664--|1660--|2356--|3429--|3248--|2319--|3691--|2175--|3245--|3026--|1731--|3258--|3503--|3567--|3494--|3684--|3105--|2956--|2864--|3341--|3103--|3393--|2207--|1873--|3045--|3025--|1856--|3423--|1796--|2604--|2949--|2221--|3550--|3253--|3627--|1801--|2080--|1791--|2163--|2135--|3339--|3395--|2601--|3687--|3246--|2210--|2224--|2168--|2211--|3446--|2213--|1757--|3053--|3338--|1912--|3189--|1771--|','','','3343--|3048--|3178--|3043--|3537--|3548--|1799--|1805--|2357--|2164--|1778--|3179--|3636--|3134--|2345--|1921--|1661--|1666--|3597--|1613--|3039--|1767--|1851--|2131--|2255--|2220--|3038--|2678--|2142--|3539--|3108--|2129--|3050--|2317--|2443--|3206--|1915--|2855--|3040--|3267--|3037--|2987--|2444--|1664--|1660--|2356--|3429--|3248--|2319--|3691--|2175--|3245--|3026--|1731--|3258--|3503--|3567--|3494--|3684--|3105--|2956--|2864--|3341--|3103--|3393--|2207--|1873--|3045--|3025--|1856--|3423--|1796--|2604--|2949--|2221--|3550--|3253--|3627--|1801--|2080--|1791--|2163--|2135--|3339--|3395--|2601--|3687--|3246--|2210--|2224--|2168--|2211--|3446--|2213--|1757--|3053--|3338--|1912--|3189--|1771--|','0','00:00:01','道路危险货物运输押运人员','1',14,'2015-06-24 04:06:00') [ RunTime:0.025002s ]
+
+[ 2015-06-24T16:07:20+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3206 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3206 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T16:07:42+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005001s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('3206--|1923--|3244--|3565--|2147--|3136--|3504--|2013--|1762--|3548--|3043--|3208--|3679--|3537--|1705--|2445--|2444--|1847--|2356--|3034--|3501--|2853--|1843--|3134--|2443--|2348--|3639--|3203--|1799--|1875--|1664--|2541--|1661--|3641--|1666--|3555--|2040--|1849--|1924--|3595--|3498--|3505--|2129--|3430--|3204--|3474--|1616--|2347--|3038--|2318--|1772--|2140--|1755--|3156--|3338--|3627--|2852--|2210--|2215--|2695--|1730--|2139--|2211--|3634--|3025--|2207--|1800--|2267--|2254--|2838--|2222--|2138--|3344--|1796--|3101--|2865--|3175--|1874--|3420--|2601--|2270--|3394--|2956--|3159--|1795--|2137--|3046--|3604--|1771--|1801--|2079--|2856--|3607--|3626--|2268--|3541--|1794--|3690--|3080--|3693--|','','','3206--|1923--|3244--|3565--|2147--|3136--|3504--|2013--|1762--|3548--|3043--|3208--|3679--|3537--|1705--|2445--|2444--|1847--|2356--|3034--|3501--|2853--|1843--|3134--|2443--|2348--|3639--|3203--|1799--|1875--|1664--|2541--|1661--|3641--|1666--|3555--|2040--|1849--|1924--|3595--|3498--|3505--|2129--|3430--|3204--|3474--|1616--|2347--|3038--|2318--|1772--|2140--|1755--|3156--|3338--|3627--|2852--|2210--|2215--|2695--|1730--|2139--|2211--|3634--|3025--|2207--|1800--|2267--|2254--|2838--|2222--|2138--|3344--|1796--|3101--|2865--|3175--|1874--|3420--|2601--|2270--|3394--|2956--|3159--|1795--|2137--|3046--|3604--|1771--|1801--|2079--|2856--|3607--|3626--|2268--|3541--|1794--|3690--|3080--|3693--|','0','00:00:15','道路危险货物运输押运人员','1',14,'2015-06-24 04:07:42') [ RunTime:0.030001s ]
+
+[ 2015-06-24T16:09:40+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1185 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1185 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T16:09:43+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.008001s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('1185--|831--|1507--|1243--|820--|1578--|76--|2369--|818--|2372--|1084--|103--|3092--|132--|1350--|84--|1452--|703--|555--|3094--|1059--|971--|1173--|990--|1306--|788--|972--|975--|961--|880--|1194--|986--|365--|964--|994--|876--|1190--|789--|781--|991--|1137--|823--|363--|1445--|509--|844--|646--|1437--|601--|626--|613--|968--|1474--|354--|117--|749--|1309--|652--|973--|1170--|689--|1004--|628--|1511--|1116--|36--|721--|549--|1219--|487--|1075--|769--|894--|537--|1302--|863--|712--|800--|1231--|304--|805--|1521--|333--|562--|123--|57--|1052--|37--|559--|1122--|547--|1001--|64--|303--|722--|552--|1429--|692--|1110--|714--|','','','1185--|831--|1507--|1243--|820--|1578--|76--|2369--|818--|2372--|1084--|103--|3092--|132--|1350--|84--|1452--|703--|555--|3094--|1059--|971--|1173--|990--|1306--|788--|972--|975--|961--|880--|1194--|986--|365--|964--|994--|876--|1190--|789--|781--|991--|1137--|823--|363--|1445--|509--|844--|646--|1437--|601--|626--|613--|968--|1474--|354--|117--|749--|1309--|652--|973--|1170--|689--|1004--|628--|1511--|1116--|36--|721--|549--|1219--|487--|1075--|769--|894--|537--|1302--|863--|712--|800--|1231--|304--|805--|1521--|333--|562--|123--|57--|1052--|37--|559--|1122--|547--|1001--|64--|303--|722--|552--|1429--|692--|1110--|714--|','0','00:00:01','经营性道路货物运输驾驶员','1',14,'2015-06-24 04:09:43') [ RunTime:0.019001s ]
+
+[ 2015-06-24T16:16:02+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3352 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3352 ) ORDER BY order_num asc  [ RunTime:0.009001s ]
+
+[ 2015-06-24T16:16:05+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 2492 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=2492 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T16:16:07+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/record_insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_record` [ RunTime:0.005000s ]
+SQL: INSERT INTO `tp_record` (`question`,`right_question`,`wrong_question`,`noanswer_question`,`score`,`cost_time`,`apply_detail_type`,`idcard`,`student_id`,`exam_date`) VALUES ('3352-B-yes|2492--|2493--|2809--|3403--|2158--|3153--|2313--|1675--|2391--|2314--|2494--|1703--|3353--|3007--|2243--|2652--|2941--|2405--|2120--|3117--|1907--|2840--|2811--|1860--|2660--|1980--|2315--|1910--|2447--|2410--|3330--|1979--|1986--|3356--|3460--|2535--|1953--|2845--|3166--|2310--|2931--|1981--|1620--|1954--|2402--|1952--|1983--|3336--|2538--|1864--|2898--|2031--|3707--|2067--|2500--|1928--|2154--|3146--|2648--|3326--|3463--|2398--|2499--|2803--|1674--|1940--|1879--|2546--|2295--|2304--|2957--|1668--|2231--|2651--|2503--|3240--|2850--|3084--|2299--|2744--|1678--|2397--|3381--|2489--|2703--|1958--|2082--|3399--|2545--|2746--|2702--|2233--|3702--|2032--|2747--|2944--|2806--|2553--|3238--|','3352-B-yes|','','2492--|2493--|2809--|3403--|2158--|3153--|2313--|1675--|2391--|2314--|2494--|1703--|3353--|3007--|2243--|2652--|2941--|2405--|2120--|3117--|1907--|2840--|2811--|1860--|2660--|1980--|2315--|1910--|2447--|2410--|3330--|1979--|1986--|3356--|3460--|2535--|1953--|2845--|3166--|2310--|2931--|1981--|1620--|1954--|2402--|1952--|1983--|3336--|2538--|1864--|2898--|2031--|3707--|2067--|2500--|1928--|2154--|3146--|2648--|3326--|3463--|2398--|2499--|2803--|1674--|1940--|1879--|2546--|2295--|2304--|2957--|1668--|2231--|2651--|2503--|3240--|2850--|3084--|2299--|2744--|1678--|2397--|3381--|2489--|2703--|1958--|2082--|3399--|2545--|2746--|2702--|2233--|3702--|2032--|2747--|2944--|2806--|2553--|3238--|','1','00:00:04','道路危险货物运输装卸管理人员','2',13,'2015-06-24 04:16:07') [ RunTime:0.024002s ]
+
+[ 2015-06-24T16:16:11+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3352 LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3352 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T16:17:32+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3091 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3091 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T16:17:38+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1185 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1185 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T16:17:49+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3206 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3206 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T16:45:38+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3206 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3206 ) ORDER BY order_num asc  [ RunTime:0.009000s ]
+
+[ 2015-06-24T16:47:17+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3206 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3206 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T16:49:01+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 3206 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=3206 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T16:54:24+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1361 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1361 ) ORDER BY order_num asc  [ RunTime:0.010000s ]
+
+[ 2015-06-24T16:54:40+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1451 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1451 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
+[ 2015-06-24T16:55:33+08:00 ] 192.168.1.102 /jx/index.php/Home/Index/exportTheme
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_question` WHERE `id` = 1185 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_option` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_option` WHERE ( qid=1185 ) ORDER BY order_num asc  [ RunTime:0.010001s ]
+
